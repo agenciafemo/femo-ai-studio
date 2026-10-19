@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "project_root": "..",
+  "output": {"width": 1080, "height": 1920, "fps": 30, "fit": "contain", "background": "071E18"},
+  "segments": [
+    {"source": "01_brutos/tomada01.mp4", "start": 2.0, "end": 8.5},
+    {"source": "01_brutos/tomada02.mp4", "start": 1.2, "end": 7.0}
+  ]
+}
