@@ -2,6 +2,10 @@
 
 Comece pelo objetivo e pelas decisões vigentes, depois consulte evidências relevantes. Não carregue um arquivo enorme de todas as pesquisas para escrever uma peça. Leia o resumo, os campos necessários e as fontes que sustentam o argumento.
 
+## Escolher a entrega
+
+O contexto também orienta briefing, key visual, gravação, campanha, anúncios, página, apresentação e planejamento. Consulte [os contratos por entrega](entregas-criativas.md). Não reduzir a pesquisa a pauta de Instagram nem exigir os mesmos campos para copy e produção visual.
+
 ## Plano e copy
 
 Cruze: objetivo comercial → necessidade do público → prova disponível → pauta → formato → CTA possível. Sem prova autorizada, proponha bastidor, método ou explicação; não fabrique case, número ou depoimento. Entregue opções de pauta explicando o vínculo com o objetivo e quais evidências as inspiraram.

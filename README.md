@@ -29,6 +29,14 @@ A coleta depende do navegador/conector e do acesso real ao conteúdo; login, API
 
 O PDF já disponível abaixo é a introdução original de vídeo e design. A nova camada de pesquisa está no guia de clientes acima.
 
+## A base também orienta outras entregas
+
+O dossiê é uma base de inteligência de marca e negócio. Ele alimenta briefing criativo, key visual, direção de Reels, copy de carrossel, stories, campanha, anúncios, página, apresentação e plano editorial. A IA seleciona o contexto do pedido e aponta dependências específicas, sem refazer toda a pesquisa.
+
+[Entregas e pedidos prontos](docs/ENTREGAS.md) · [Método de criação por entrega](references/entregas-criativas.md)
+
+O helper scripts/entregas.py prepara contexto e briefing na base privada. A produção criativa é realizada depois pela IA e pela equipe no editor/ferramenta adequado; preparar uma pasta não significa produzir a arte final.
+
 ## Clientes no Norteia
 
 Se a agência já mantém clientes no Norteia, a IA pode consultar o cadastro autorizado e preparar as bases privadas a partir de uma exportação mínima. O helper preserva o vínculo por cliente, registra fontes, mantém hipóteses e abre conflitos quando uma atualização diverge de uma decisão local. Não altera o Norteia nem transforma cadastro em pesquisa concluída.

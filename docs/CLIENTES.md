@@ -83,3 +83,7 @@ python scripts/qualidade.py copy projetos/clientes/cliente/producao/comparacao-c
 ~~~
 
 O JSON de comparação contém reference e output como textos. Use a copy de conteúdo, separada de cabeçalhos/assinaturas adicionais. O resultado 2 indica diferença a revisar ou contraste abaixo da meta; não faz correção automática. Os limites e fontes estão em references/aprimoramentos-instagram.md. Ver a arte no tamanho final continua necessário.
+
+## Da base às diferentes entregas
+
+Usar [o guia de entregas](ENTREGAS.md) para briefing, key visual, direção de Reels, carrossel, stories, campanha, anúncios, página, apresentação e plano editorial. O helper entregas.py seleciona campos e fontes por missão, preserva o dossiê e prepara um briefing com lacunas específicas. A IA desenvolve a entrega; o pacote de contexto não é o resultado criativo final.

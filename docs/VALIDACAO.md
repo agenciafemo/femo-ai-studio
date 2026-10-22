@@ -49,3 +49,10 @@ FFmpeg e FFprobe são necessários para os testes de mídia. O teste informa ski
 - QA: contraste preto/branco, simetria, pares de baixo contraste, cores/metas inválidas, normalização de espaços/Unicode e detecção de alteração em negação e número.
 - Preparação real da carteira executada em projetos/ com dados restritos. Segunda execução não criou nem atualizou dossiês. Nenhuma pesquisa aprofundada de Instagram foi simulada ou afirmada como concluída. O registro privado contém os detalhes, fora do Git.
 - Fontes, licenças dos terceiros e vínculo com bases anteriores foram preservados. O repositório público contém apenas método, helpers e exemplo fictício.
+
+## Versão 1.3.0 · contexto por entrega
+
+- Suíte completa: 50 testes executados com sucesso, incluindo renderização e instalação portátil.
+- Novos cenários: copy e key visual com dependências distintas; seleção apenas das evidências relevantes; preparação versionada sem alterar o dossiê; conflito preservado; entrada desconhecida rejeitada; campos do catálogo compatíveis com a base.
+- O comando entregas.py tipos apresentou os dez contratos. A skill central passou no quick_validate.py e os links dos sete documentos de entrada revisados foram conferidos.
+- CONTEXTO.json e BRIEFING.md são preparação de trabalho; nenhum resultado de arte, gravação, publicação ou validação técnica foi simulado. Não foram criadas entregas extras para os clientes reais nesta ampliação.

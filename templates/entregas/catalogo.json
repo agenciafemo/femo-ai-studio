@@ -1,0 +1,371 @@
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "briefing",
+      "name": "Briefing criativo",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "publico",
+        "posicionamento",
+        "limites"
+      ],
+      "context_fields": [
+        "oferta",
+        "voz",
+        "identidade",
+        "provas",
+        "acervo",
+        "operacao",
+        "formato",
+        "aprendizados"
+      ],
+      "questions": [
+        "Qual é a entrega solicitada, o prazo e quem aprova?",
+        "Qual mensagem precisa ficar e qual ação esperamos depois?"
+      ],
+      "sections": [
+        "Problema e objetivo da comunicação",
+        "Público, necessidade e objeção prioritária",
+        "Mensagem central e prova disponível",
+        "Oferta e CTA quando pertinentes",
+        "Direção de linguagem e visual",
+        "Entregáveis, formatos, materiais, prazo e responsáveis",
+        "Critérios de avaliação e lacunas"
+      ],
+      "completion": "Briefing utilizável pela equipe, com escolhas justificadas e dependências explícitas."
+    },
+    {
+      "id": "key-visual",
+      "name": "Key visual de campanha",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "publico",
+        "posicionamento",
+        "identidade",
+        "limites"
+      ],
+      "context_fields": [
+        "oferta",
+        "voz",
+        "referencias",
+        "acervo",
+        "provas",
+        "formato",
+        "operacao",
+        "aprendizados"
+      ],
+      "questions": [
+        "Para qual campanha, mensagem e aplicações será criado o key visual?",
+        "Quais elementos da marca devem permanecer e quais podem variar nesta campanha?"
+      ],
+      "sections": [
+        "Conceito e argumento criativo",
+        "Referências anotadas e síntese própria",
+        "Relação com a identidade vigente",
+        "Sistema visual: cor, papéis tipográficos, imagem e composição",
+        "Peça principal e variações de formato",
+        "Regras de desdobramento e elementos constantes",
+        "Ativos, direitos, arquivos editáveis e revisão"
+      ],
+      "completion": "Conceito sustentado pela estratégia, peça principal e lógica de desdobramento; key visual não é rebranding automático."
+    },
+    {
+      "id": "reels",
+      "name": "Direcionamento e roteiro de Reels",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "publico",
+        "voz",
+        "limites"
+      ],
+      "context_fields": [
+        "oferta",
+        "posicionamento",
+        "provas",
+        "identidade",
+        "conteudo_proprio",
+        "benchmark",
+        "referencias",
+        "acervo",
+        "conversao",
+        "operacao",
+        "aprendizados"
+      ],
+      "questions": [
+        "Quem aparece ou narra e que material já existe?",
+        "O pedido é direção de gravação, roteiro ou edição de brutos?",
+        "Qual duração, formato, destino e CTA fazem sentido nesta peça?"
+      ],
+      "sections": [
+        "Intenção, público e ideia central",
+        "Opções de abertura com justificativa",
+        "Fala natural e ressalvas preservadas",
+        "Mapa de cenas: fala, imagem, ação e texto na tela",
+        "Orientação de gravação, cenário, luz, enquadramento e áudio",
+        "Direção de edição, ritmo, apoio visual e legendas",
+        "Capa, legenda, CTA e critério de resultado"
+      ],
+      "completion": "Roteiro gravável ou instrução de edição concreta; tempos estimados precisam ser conferidos na fala real."
+    },
+    {
+      "id": "carrossel",
+      "name": "Copy e direção de carrossel",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "publico",
+        "voz",
+        "limites"
+      ],
+      "context_fields": [
+        "oferta",
+        "posicionamento",
+        "provas",
+        "identidade",
+        "referencias",
+        "conteudo_proprio",
+        "benchmark",
+        "acervo",
+        "conversao",
+        "formato",
+        "aprendizados"
+      ],
+      "questions": [
+        "Quer apenas copy, direção artística ou também produção no editor?",
+        "Há quantidade de páginas e formato definidos?",
+        "Que prova ou exemplo autorizado sustentará a mensagem?"
+      ],
+      "sections": [
+        "Tese, tensão e intenção da peça",
+        "Opções de capa ligadas ao argumento",
+        "Progressão e função de cada slide",
+        "Copy completa com destaques e ressalvas",
+        "Legenda e CTA separados",
+        "Direção visual por página e função das imagens",
+        "Revisão de texto, leitura e sequência"
+      ],
+      "completion": "Copy pronta para revisar, com raciocínio completo. Produção visual exige identidade, ativos e formato disponíveis."
+    },
+    {
+      "id": "stories",
+      "name": "Sequência de stories",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "publico",
+        "voz",
+        "limites"
+      ],
+      "context_fields": [
+        "oferta",
+        "provas",
+        "identidade",
+        "acervo",
+        "conversao",
+        "formato",
+        "aprendizados"
+      ],
+      "questions": [
+        "Que ação a sequência deve facilitar?",
+        "Há bastidores reais, respostas ou material de apoio?"
+      ],
+      "sections": [
+        "Contexto e abertura",
+        "Sequência quadro a quadro",
+        "Imagem ou vídeo de cada quadro",
+        "Interação com função e resposta esperada",
+        "CTA e destino",
+        "Copy e revisão"
+      ],
+      "completion": "Sequência coerente e executável, sem pressupor envio automático de mensagens."
+    },
+    {
+      "id": "campanha",
+      "name": "Conceito e plano de campanha",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "oferta",
+        "publico",
+        "posicionamento",
+        "limites",
+        "conversao"
+      ],
+      "context_fields": [
+        "provas",
+        "voz",
+        "identidade",
+        "benchmark",
+        "referencias",
+        "acervo",
+        "operacao",
+        "formato",
+        "metricas",
+        "aprendizados"
+      ],
+      "questions": [
+        "Qual período, oferta prioritária, canais e capacidade de atendimento?",
+        "Há investimento e produção disponíveis ou isso ainda será definido?"
+      ],
+      "sections": [
+        "Objetivo, público e contexto comercial",
+        "Insight e conceito da campanha",
+        "Promessa, prova e limites",
+        "Arquitetura de mensagens e jornada",
+        "Canais, formatos, key visual e desdobramentos",
+        "Cronograma, materiais e responsáveis",
+        "Medição, hipóteses e decisões posteriores"
+      ],
+      "completion": "Plano coerente com recursos e objetivo. Planejar não autoriza comprar mídia ou publicar."
+    },
+    {
+      "id": "anuncios",
+      "name": "Conceitos e copys de anúncios",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "oferta",
+        "publico",
+        "posicionamento",
+        "limites",
+        "conversao"
+      ],
+      "context_fields": [
+        "provas",
+        "voz",
+        "identidade",
+        "acervo",
+        "referencias",
+        "metricas",
+        "aprendizados"
+      ],
+      "questions": [
+        "Qual oferta, destino e etapa de decisão serão trabalhados?",
+        "Quais canais e formatos serão usados e quais promessas estão autorizadas?"
+      ],
+      "sections": [
+        "Objetivo e contexto do anúncio",
+        "Ângulos de mensagem sustentados por prova",
+        "Headline, corpo e CTA por variação",
+        "Direção visual ou de vídeo",
+        "Coerência entre anúncio e destino",
+        "Hipótese de teste e medição",
+        "Revisão de afirmações e pendências"
+      ],
+      "completion": "Variações revisáveis, sem prometer desempenho ou ativar mídia."
+    },
+    {
+      "id": "pagina",
+      "name": "Estrutura e copy de página",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "oferta",
+        "publico",
+        "posicionamento",
+        "limites",
+        "conversao"
+      ],
+      "context_fields": [
+        "provas",
+        "voz",
+        "identidade",
+        "acervo",
+        "referencias",
+        "operacao",
+        "aprendizados"
+      ],
+      "questions": [
+        "A página será institucional, comercial, de campanha ou outra?",
+        "Qual destino, editor/plataforma e ação principal foram escolhidos?"
+      ],
+      "sections": [
+        "Objetivo e jornada de leitura",
+        "Arquitetura da página",
+        "Mensagem principal e seções",
+        "Copy por seção, prova e objeções",
+        "CTA e continuidade da experiência",
+        "Direção visual e ativos",
+        "Critérios de revisão e implementação"
+      ],
+      "completion": "Estrutura e copy utilizáveis. Implementar ou publicar site é uma entrega distinta, conforme o pedido."
+    },
+    {
+      "id": "apresentacao",
+      "name": "Narrativa e direção de apresentação",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "publico",
+        "posicionamento",
+        "limites"
+      ],
+      "context_fields": [
+        "oferta",
+        "provas",
+        "voz",
+        "identidade",
+        "acervo",
+        "formato",
+        "operacao",
+        "aprendizados"
+      ],
+      "questions": [
+        "Quem vai apresentar, a quem e para obter qual decisão?",
+        "Qual duração, formato editável e contexto de uso?"
+      ],
+      "sections": [
+        "Tese e decisão desejada",
+        "Narrativa e sequência",
+        "Mensagem e prova por página",
+        "Copy e notas de fala quando necessárias",
+        "Direção visual e gráficos verificáveis",
+        "Fechamento e próximo passo",
+        "Revisão de números, fontes e arquivos"
+      ],
+      "completion": "Narrativa compreensível e sustentada, sem inventar cases, números ou depoimentos."
+    },
+    {
+      "id": "plano-editorial",
+      "name": "Plano editorial",
+      "required_fields": [
+        "perfil",
+        "objetivo",
+        "oferta",
+        "publico",
+        "posicionamento",
+        "voz",
+        "limites"
+      ],
+      "context_fields": [
+        "provas",
+        "identidade",
+        "conteudo_proprio",
+        "benchmark",
+        "metricas",
+        "conversao",
+        "operacao",
+        "formato",
+        "aprendizados"
+      ],
+      "questions": [
+        "Qual período, escopo contratado e capacidade de produção?",
+        "Quais prioridades, campanhas e datas são relevantes para o cliente?"
+      ],
+      "sections": [
+        "Objetivo e papéis dos conteúdos",
+        "Pilares ligados a necessidades reais",
+        "Pautas e evidências de apoio",
+        "Formatos, voz e direção por pauta",
+        "Cadência compatível com recursos",
+        "Dependências e responsáveis",
+        "Medição e atualização do plano"
+      ],
+      "completion": "Plano executável com prioridades e critérios, sem impor frequência universal ou pesquisar tudo novamente."
+    }
+  ]
+}

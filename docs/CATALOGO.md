@@ -4,6 +4,7 @@ Comece por [SKILL.md](../SKILL.md). O agente consulta só o módulo necessário.
 
 | Necessidade | Entrada canônica |
 | --- | --- |
+| Briefing, key visual, Reels, campanhas e outras saídas da base | [Entregas criativas](ENTREGAS.md), scripts/entregas.py |
 | Preparar clientes a partir do Norteia | [Integração de leitura](NORTEIA.md), scripts/norteia.py |
 | Conferir contraste e diferenças de copy | scripts/qualidade.py e [critérios de revisão](../references/aprimoramentos-instagram.md) |
 | Pesquisa com equipe, evidências e dossiê | [Pesquisa FEMO](../references/pesquisa-e-dossie.md) e [base por cliente](CLIENTES.md) |

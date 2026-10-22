@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def package_files():
     names = ['SKILL.md', 'LICENSE', 'THIRD_PARTY.md', 'scripts/femo.py', 'scripts/install_skill.py', 'scripts/transcribe_local.py', 'scripts/femo.ps1',
-             'scripts/clientes.py', 'scripts/benchmark.py', 'scripts/norteia.py', 'scripts/qualidade.py', 'docs/PESQUISA.md', 'docs/CLIENTES.md', 'docs/CATALOGO.md', 'docs/NORTEIA.md', 'examples/norteia-minimo.json', 'examples/carrossel-sobrancelhas.md']
+             'scripts/clientes.py', 'scripts/benchmark.py', 'scripts/norteia.py', 'scripts/qualidade.py', 'scripts/entregas.py', 'docs/PESQUISA.md', 'docs/CLIENTES.md', 'docs/CATALOGO.md', 'docs/NORTEIA.md', 'docs/ENTREGAS.md', 'examples/norteia-minimo.json', 'examples/carrossel-sobrancelhas.md']
     result = [Path(n) for n in names]
     for folder in ['references', 'assets', 'templates', 'skills', 'third_party', 'agents']:
         result += [p.relative_to(ROOT) for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc']

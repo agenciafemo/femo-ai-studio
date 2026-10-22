@@ -1,6 +1,6 @@
 ---
 name: femo-ai-studio
-description: Pesquisar perfis e referências do Instagram, construir dossiês de clientes com evidências e lacunas, planejar conteúdo e criar ou revisar copy, carrosséis e vídeos com a marca de cada cliente. Use do estudo à produção e atualização da base.
+description: Pesquisar marcas e clientes, reunir evidências e lacunas em dossiês e criar briefings, key visuals, campanhas, copys, carrosséis e vídeos com a identidade de cada cliente.
 ---
 
 # FEMO AI Studio
@@ -8,6 +8,8 @@ description: Pesquisar perfis e referências do Instagram, construir dossiês de
 Workflow da Agência FEMO para pesquisar, organizar a base do cliente e transformar materiais reais em conteúdo revisável. A IA dirige e opera as ferramentas disponíveis; este arquivo não é um modelo de vídeo, uma conta de serviço ou uma licença de fonte.
 
 ## Entrada única: escolher a missão
+
+A base é inteligência de marca e negócio, utilizável além do Instagram. Para briefing, key visual, Reels, carrossel, campanha e outras aplicações, leia [criação por entrega](references/entregas-criativas.md) e [guia de saídas](docs/ENTREGAS.md). Se útil, scripts/entregas.py prepara um recorte de contexto e as lacunas específicas. O helper não produz a entrega final: desenvolver o trabalho solicitado com as ferramentas disponíveis.
 
 Quando o cliente já estiver no Norteia, use [a preparação de leitura](docs/NORTEIA.md) para aproveitar o contexto cadastrado. Não dependa do Norteia para outros usuários do pacote. Antes de usar heurísticas dos pacotes Instagram, consulte os [aprimoramentos de pesquisa, voz e revisão](references/aprimoramentos-instagram.md) relevantes à missão.
 

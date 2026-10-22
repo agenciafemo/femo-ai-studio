@@ -150,7 +150,7 @@ class ClientTests(unittest.TestCase):
     def test_installed_package_can_create_client_without_source_repo(self):
         install_skill.install(self.base/'destino', 'codex')
         package = self.base/'destino/.agents/skills/femo-ai-studio'
-        for rel in ('scripts/clientes.py', 'scripts/norteia.py', 'scripts/qualidade.py', 'docs/NORTEIA.md', 'examples/norteia-minimo.json', 'templates/cliente/campos.json', 'docs/CATALOGO.md',
+        for rel in ('scripts/clientes.py', 'scripts/norteia.py', 'scripts/qualidade.py', 'scripts/entregas.py', 'templates/entregas/catalogo.json', 'docs/ENTREGAS.md', 'docs/NORTEIA.md', 'examples/norteia-minimo.json', 'templates/cliente/campos.json', 'docs/CATALOGO.md',
                     'third_party/instagram-agent/skills/ig-viral/swipe.py',
                     'third_party/instagram-skills/lib/apify_client.py',
                     'skills/femo-direcao-carrosseis/SKILL.md'):
