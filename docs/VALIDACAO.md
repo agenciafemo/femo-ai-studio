@@ -31,3 +31,12 @@ python scripts/audit_pdf.py docs/GUIA-FEMO-AI-STUDIO.pdf
 ```
 
 FFmpeg e FFprobe são necessários para os testes de mídia. O teste informa skip quando ausentes. A auditoria do PDF requer pypdf. Construção do guia usa requirements-pdf.txt; nenhuma dessas bibliotecas é necessária para o helper básico de edição.
+
+## Pesquisa e base replicável · 22/10/2026
+
+- python -X utf8 -m unittest discover -s tests -v: 30 testes encontrados, 23 executados com sucesso e sete de mídia pulados por FFmpeg/FFprobe ausentes do PATH da sessão. Os testes novos cobrem lacunas impeditivas e complementares, fontes bloqueadas/inexistentes, hipótese versus confirmação, conflito, prazo de revisão, histórico, importação idempotente, preservação de cliente existente, dados inválidos e instalação portátil.
+- Helper de benchmark: comparação com mediana conhecida, fontes rastreáveis, separação por métrica e collab, tratamento diferente de zero e contagem oculta, amostra insuficiente e valor numérico inválido.
+- quick_validate.py do skill-creator: skill central e direção de carrosséis válidas. Dependência YAML já presente no computador; nenhuma instalação global efetuada nesta atualização.
+- Onze arquivos Markdown próprios com links locais verificados, sem destino ausente. O pacote de distribuição preserva 84 arquivos originais dos dois fornecedores, conferidos byte a byte com os clones públicos. São treze + nove skills auxiliares; o SKILL raiz do segundo pacote é um roteador adicional.
+- Materiais de clientes não foram copiados para o pacote público. projetos/ permanece ignorado; a pasta criada para um cliente também contém .gitignore. Os exemplos/testes usam identidades fictícias.
+- Nenhuma nova pesquisa em perfil real foi executada nesta consolidação. Validação estrutural não demonstra qualidade de uma pesquisa futura, desempenho de conteúdo ou acesso ao Instagram. As ferramentas de navegação/conectores continuam sendo necessárias na sessão de uso.

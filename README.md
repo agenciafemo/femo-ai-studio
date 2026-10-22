@@ -1,12 +1,35 @@
 # FEMO AI Studio
 
-**Edição de vídeo e criação de design por conversa, com direção e organização da Agência FEMO.** Para Claude Code e Codex com acesso à pasta do trabalho e execução de ferramentas.
+**Pesquisa de clientes, estratégia, copy, design e vídeo em uma base organizada pela Agência FEMO.** Para Claude Code e Codex com acesso à pasta do trabalho e execução de ferramentas.
 
 [Baixar o pacote](https://github.com/agenciafemo/femo-ai-studio/archive/refs/heads/main.zip) · [Guia PDF com botões](docs/GUIA-FEMO-AI-STUDIO.pdf) · [Pesquisa e fontes](docs/PESQUISA.md)
 
 [![Prévia do guia FEMO](docs/preview-guia.png)](docs/GUIA-FEMO-AI-STUDIO.pdf)
 
-## Comece em três passos
+## Novo cliente: comece por aqui
+
+Uma entrada única coordena pesquisa de perfil, conteúdo próprio, referências, identidade visual e voz. A base reúne **19 itens do dossiê**, evidências datadas, lacunas e histórico. São **22 skills de Instagram de terceiros**, com licença e autoria preservadas, mais o método FEMO de direção e produção.
+
+1. Baixe e extraia o pacote; abra a pasta no Claude Code ou no Codex com acesso aos arquivos.
+2. Diga o nome, perfil e objetivo do cliente. Se o objetivo ainda não existe, a pesquisa ajuda a formular opções e pede a definição à equipe.
+3. Peça pesquisa e dossiê. A IA usa os papéis documentados e informa o que conseguiu observar, as hipóteses e o que falta para criar.
+
+~~~text
+Leia SKILL.md. Vamos estudar [cliente], perfil [URL], com o objetivo [objetivo].
+Crie ou retome a base privada desse cliente. Pesquise o perfil, conteúdo próprio,
+referências de desempenho, identidade e voz com evidências.
+Use agentes de pesquisa se disponíveis e autorizados, ou os mesmos papéis em sequência.
+Mostre o dossiê e as lacunas específicas que nossa equipe precisa preencher.
+Depois proponha pautas; aguarde a escolha antes de produzir as peças.
+~~~
+
+[Como funciona a base do cliente](docs/CLIENTES.md) · [Todas as funções reunidas](docs/CATALOGO.md) · [Método de pesquisa](references/pesquisa-e-dossie.md)
+
+A coleta depende do navegador/conector e do acesso real ao conteúdo; login, APIs e créditos não vêm embutidos na skill. Os comandos locais organizam e verificam os dados. O repositório público contém método e modelos; bases e arquivos de clientes ficam em projetos/, ignorado pelo Git.
+
+O PDF já disponível abaixo é a introdução original de vídeo e design. A nova camada de pesquisa está no guia de clientes acima.
+
+## Vídeo: comece em três passos
 
 1. **Baixe e extraia o repositório.** Abra a pasta extraída no Claude Code ou no Codex com acesso local. No primeiro uso, peça à IA para verificar as dependências.
 2. **Organize brutos, referências e marca.** A IA pode criar as pastas com `python scripts/femo.py init projetos/meu-video`.
@@ -80,7 +103,7 @@ Direção editorial, organização do workflow, documentação e helpers deste p
 
 A direção FEMO vale para a comunicação da FEMO. Para clientes, use a marca de cada cliente. Fontes comerciais, manuais completos e arquivos privados não são distribuídos.
 
-Pesquisa revisada em 19 de outubro de 2026. Confirme versões, disponibilidade e planos na conta em uso.
+Camada de pesquisa e dossiês consolidada em 22 de outubro de 2026; pesquisa original de vídeo em 19 de outubro de 2026. Confirme versões, disponibilidade e planos na conta em uso.
 
 ## Windows e instalação de usuário
 

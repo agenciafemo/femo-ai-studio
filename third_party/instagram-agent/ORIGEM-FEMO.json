@@ -1,0 +1,9 @@
+{
+  "upstream": "https://github.com/Jakeschincariol/instagram-agent-skill",
+  "commit": "d03c56bb598be770c60b201f94237e5d1a4268a6",
+  "version": "1.0.0",
+  "collected_at": "2026-10-22",
+  "license": "MIT",
+  "author": "Jake Schincariol",
+  "selection": "Skills e recursos originais; integração FEMO em docs/CATALOGO.md. Sem instalação global."
+}

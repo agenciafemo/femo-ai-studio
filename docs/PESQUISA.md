@@ -73,3 +73,9 @@ O manual FEMO enviado pelo usuário orientou paleta, tipografia declarada, logo 
 ## 10. Como verificar esta distribuição
 
 Consulte docs/VALIDACAO.md para ambiente e testes efetivamente executados. Os testes locais usam mídia sintética, não pacientes ou vídeos privados. Revise também o PDF renderizado, as áreas clicáveis, os destinos dos botões, as cópias instaladas e o conteúdo do commit. Versões futuras precisam repetir as verificações que afetam o código alterado.
+
+## Consolidação de pesquisa e criação · 22/10/2026
+
+Foram examinados os repositórios públicos Instagram Agent (https://github.com/Jakeschincariol/instagram-agent-skill) e Instagram Skills (https://github.com/sergebulaev/instagram-skills), suas licenças MIT, funções e recursos. As revisões exatas e seleções estão em third_party/*/ORIGEM-FEMO.json. O primeiro contém a skill ig-viral encontrada na instalação local do Claude. O segundo é o pacote de nove skills indicado pela equipe.
+
+A integração, os critérios de dossiê, evidência, lacunas e adaptação por cliente são descritos em docs/CLIENTES.md, docs/CATALOGO.md e references/pesquisa-e-dossie.md. Não foi feita nesta atualização uma nova varredura de perfil de cliente ou demonstração de acesso ao Instagram; foi consolidado o sistema para executá-la com as ferramentas e autorizações presentes em cada sessão.

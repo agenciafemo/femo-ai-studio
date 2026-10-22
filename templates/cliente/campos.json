@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "fields": [
+    {
+      "id": "perfil",
+      "label": "Identificação e canais",
+      "question": "Qual é a marca, segmento, região atendida e perfil/site oficial?",
+      "owner": "Atendimento",
+      "required_for": [
+        "pesquisa",
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 180,
+      "allow_na": false
+    },
+    {
+      "id": "objetivo",
+      "label": "Objetivo comercial e medida de sucesso",
+      "question": "Qual resultado queremos priorizar, para quem, em qual período e como será acompanhado?",
+      "owner": "Estratégia/cliente",
+      "required_for": [
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 90,
+      "allow_na": false
+    },
+    {
+      "id": "oferta",
+      "label": "Oferta prioritária",
+      "question": "Qual serviço ou produto priorizar, escopo, disponibilidade e limites da promessa?",
+      "owner": "Cliente",
+      "required_for": [
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 90,
+      "allow_na": false
+    },
+    {
+      "id": "publico",
+      "label": "Público e necessidade",
+      "question": "Quem queremos atrair, qual necessidade real, contexto de decisão e principais objeções?",
+      "owner": "Estratégia/cliente",
+      "required_for": [
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 90,
+      "allow_na": false
+    },
+    {
+      "id": "posicionamento",
+      "label": "Posicionamento e diferenciais",
+      "question": "Por que esse cliente seria escolhido e quais diferenciais têm sustentação?",
+      "owner": "Estratégia/cliente",
+      "required_for": [
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 180,
+      "allow_na": false
+    },
+    {
+      "id": "provas",
+      "label": "Provas e permissões",
+      "question": "Quais casos, números, bastidores e depoimentos podem ser usados? Se não há prova, registrar o limite.",
+      "owner": "Atendimento/cliente",
+      "required_for": [],
+      "max_age_days": 90,
+      "allow_na": true
+    },
+    {
+      "id": "voz",
+      "label": "Tom de voz",
+      "question": "Quais padrões de linguagem, exemplos reais e expressões aprovadas representam a marca?",
+      "owner": "Conteúdo/cliente",
+      "required_for": [
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 180,
+      "allow_na": false
+    },
+    {
+      "id": "identidade",
+      "label": "Identidade visual vigente",
+      "question": "Qual manual e peças aprovadas valem hoje? Paleta, fontes reais, grid, fotografia e acabamento?",
+      "owner": "Design/cliente",
+      "required_for": [
+        "design"
+      ],
+      "max_age_days": 180,
+      "allow_na": false
+    },
+    {
+      "id": "limites",
+      "label": "Restrições e revisão técnica",
+      "question": "O que evitar, quem valida informações técnicas e quais permissões precisam existir?",
+      "owner": "Atendimento/revisor",
+      "required_for": [
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 90,
+      "allow_na": false
+    },
+    {
+      "id": "referencias",
+      "label": "Referências contextualizadas",
+      "question": "Quais posts/perfis inspiram forma ou conteúdo, por quê e o que não copiar?",
+      "owner": "Pesquisa",
+      "required_for": [
+        "design"
+      ],
+      "max_age_days": 60,
+      "allow_na": false
+    },
+    {
+      "id": "conteudo_proprio",
+      "label": "Leitura do conteúdo próprio",
+      "question": "Qual período/amostra foi lido, o que funciona ou não e com qual limite de acesso?",
+      "owner": "Pesquisa",
+      "required_for": [
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 30,
+      "allow_na": false
+    },
+    {
+      "id": "benchmark",
+      "label": "Concorrência e padrões",
+      "question": "Quais concorrentes diretos e referências adjacentes foram comparados? Fontes, contrastes e lacunas?",
+      "owner": "Pesquisa",
+      "required_for": [],
+      "max_age_days": 30,
+      "allow_na": true
+    },
+    {
+      "id": "metricas",
+      "label": "Métricas e baseline",
+      "question": "Qual métrica é observável, qual amostra e mediana? Há Insights autorizados?",
+      "owner": "Pesquisa/cliente",
+      "required_for": [],
+      "max_age_days": 30,
+      "allow_na": true
+    },
+    {
+      "id": "conversao",
+      "label": "Caminho de conversão e CTA",
+      "question": "Para onde a pessoa vai depois do conteúdo e qual ação é coerente com o objetivo?",
+      "owner": "Atendimento",
+      "required_for": [
+        "planejamento",
+        "design"
+      ],
+      "max_age_days": 90,
+      "allow_na": false
+    },
+    {
+      "id": "acervo",
+      "label": "Acervo e direitos de uso",
+      "question": "Que fotos, vídeos, logos e fontes estão acessíveis e podem ser usados? Quais faltam?",
+      "owner": "Design/cliente",
+      "required_for": [
+        "design"
+      ],
+      "max_age_days": 90,
+      "allow_na": false
+    },
+    {
+      "id": "operacao",
+      "label": "Operação e aprovação",
+      "question": "Quem fornece, revisa e aprova? Onde ficam versões, fontes e estado atual?",
+      "owner": "Atendimento",
+      "required_for": [
+        "design"
+      ],
+      "max_age_days": 90,
+      "allow_na": false
+    },
+    {
+      "id": "formato",
+      "label": "Entrega e editor",
+      "question": "Quais formatos/dimensões, editor, projeto de destino e fonte editável esperados?",
+      "owner": "Atendimento",
+      "required_for": [
+        "design"
+      ],
+      "max_age_days": 90,
+      "allow_na": false
+    },
+    {
+      "id": "pilares",
+      "label": "Pilares e hipóteses editoriais",
+      "question": "Que temas ligam objetivo, público e provas, e quais devem ser testados?",
+      "owner": "Estratégia",
+      "required_for": [],
+      "max_age_days": 60,
+      "allow_na": true
+    },
+    {
+      "id": "aprendizados",
+      "label": "Aprendizados e decisões",
+      "question": "O que foi aprovado ou recusado, em qual escopo, e quais resultados já foram medidos?",
+      "owner": "Coordenação",
+      "required_for": [],
+      "max_age_days": 90,
+      "allow_na": true
+    }
+  ]
+}

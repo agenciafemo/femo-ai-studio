@@ -1,0 +1,9 @@
+{
+  "upstream": "https://github.com/sergebulaev/instagram-skills",
+  "commit": "6a124481d0ebe9b6d3ac1323ed2a2abc40c7e1d7",
+  "version": "1.0.32",
+  "collected_at": "2026-10-22",
+  "license": "MIT",
+  "author": "Sergey Bulaev",
+  "selection": "Skills e recursos originais; integração FEMO em docs/CATALOGO.md. Sem instalação global."
+}

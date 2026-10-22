@@ -1,0 +1,11 @@
+{
+  "id": "BRIEF-001",
+  "kind": "user_brief",
+  "locator": "entradas/briefing.md",
+  "collected_at": "2026-10-22",
+  "access": "full",
+  "observation": "EXEMPLO FICTÍCIO: a equipe informou o objetivo comercial no briefing. Substituir pelo material realmente recebido.",
+  "account": null,
+  "published_at": null,
+  "metrics": null
+}
