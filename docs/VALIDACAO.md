@@ -40,3 +40,12 @@ FFmpeg e FFprobe são necessários para os testes de mídia. O teste informa ski
 - Onze arquivos Markdown próprios com links locais verificados, sem destino ausente. O pacote de distribuição preserva 84 arquivos originais dos dois fornecedores, conferidos byte a byte com os clones públicos. São treze + nove skills auxiliares; o SKILL raiz do segundo pacote é um roteador adicional.
 - Materiais de clientes não foram copiados para o pacote público. projetos/ permanece ignorado; a pasta criada para um cliente também contém .gitignore. Os exemplos/testes usam identidades fictícias.
 - Nenhuma nova pesquisa em perfil real foi executada nesta consolidação. Validação estrutural não demonstra qualidade de uma pesquisa futura, desempenho de conteúdo ou acesso ao Instagram. As ferramentas de navegação/conectores continuam sendo necessárias na sessão de uso.
+
+## Versão 1.2.0 · 22/10/2026
+
+- Suíte completa: 44 testes executados com sucesso no ambiente com FFmpeg/FFprobe disponíveis. Inclui renderizações sintéticas e instalação portátil, além dos novos cenários Norteia e qualidade. A ausência de FFmpeg descrita acima pertence à sessão anterior de validação.
+- Importação Norteia: escopo de organização, lista de campos permitidos, exclusão de contatos/tokens, preservação de decisão local, conflitos em atualização divergente, repetição sem duplicatas, vínculo por ID e encerramento. Objetivo e marca não são aprovados automaticamente.
+- Um bloqueio temporário de rename no Windows foi observado durante a cópia de instalação; foi adicionado retry limitado, sem sobrescrever destino existente, e teste específico. A suíte completa passou depois do reparo.
+- QA: contraste preto/branco, simetria, pares de baixo contraste, cores/metas inválidas, normalização de espaços/Unicode e detecção de alteração em negação e número.
+- Preparação real da carteira executada em projetos/ com dados restritos. Segunda execução não criou nem atualizou dossiês. Nenhuma pesquisa aprofundada de Instagram foi simulada ou afirmada como concluída. O registro privado contém os detalhes, fora do Git.
+- Fontes, licenças dos terceiros e vínculo com bases anteriores foram preservados. O repositório público contém apenas método, helpers e exemplo fictício.

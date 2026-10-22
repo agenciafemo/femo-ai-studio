@@ -2,6 +2,8 @@
 
 ## Contrato da rodada
 
+Se houver Norteia, partir da [base interna autorizada](../docs/NORTEIA.md), preservando validade, escopo e decisões anteriores. O [complemento de revisão](aprimoramentos-instagram.md) orienta a separação entre observação, achado e teste.
+
 Leia o dossiê existente, suas decisões aprovadas e a missão atual. Informe o objetivo comercial em uma frase, a entrega pretendida, o período analisado e o acesso real. Um pedido de estudo termina em estudo; produção começa quando solicitada. Não herde paleta, imagens, tom ou regras de assinatura de outro cliente.
 
 Use scripts/clientes.py para abrir a estrutura, registrar evidências e verificar lacunas. O JSON é o registro estruturado; DOSSIÊ.md e LACUNAS.md são visões geradas dele. Notas extensas e arquivos originais ficam nas subpastas indicadas em docs/CLIENTES.md. Não edite apenas a visão gerada esperando atualizar o JSON.

@@ -9,6 +9,8 @@ Workflow da Agência FEMO para pesquisar, organizar a base do cliente e transfor
 
 ## Entrada única: escolher a missão
 
+Quando o cliente já estiver no Norteia, use [a preparação de leitura](docs/NORTEIA.md) para aproveitar o contexto cadastrado. Não dependa do Norteia para outros usuários do pacote. Antes de usar heurísticas dos pacotes Instagram, consulte os [aprimoramentos de pesquisa, voz e revisão](references/aprimoramentos-instagram.md) relevantes à missão.
+
 - Novo cliente ou estudo de perfil/nicho: leia [pesquisa e dossiê](references/pesquisa-e-dossie.md) e [guia de clientes](docs/CLIENTES.md). Crie a base privada com scripts/clientes.py; se já existe, retome os arquivos e decisões atuais sem duplicar o cliente.
 - Pauta, copy ou plano: confira objetivo e lacunas, depois [criação com base](references/criacao-com-base.md).
 - Design/carrossel: use também [direção de carrosséis](skills/femo-direcao-carrosseis/SKILL.md). Vídeo: [workflow de vídeo](references/video.md).

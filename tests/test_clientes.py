@@ -133,10 +133,24 @@ class ClientTests(unittest.TestCase):
             clientes.add_evidence(self.folder, {**self.source, 'collected_at': 'ontem'})
         self.assertEqual(before, (self.folder/'dossie.json').read_bytes())
 
+    def test_installer_retries_temporary_windows_lock(self):
+        from unittest.mock import patch
+        original = Path.rename
+        calls = []
+        def temporarily_locked(source, target):
+            calls.append(str(source))
+            if len(calls) < 3:
+                raise PermissionError('Lock temporário simulado no Windows')
+            return original(source, target)
+        with patch('install_skill.Path.rename', new=temporarily_locked):
+            result = install_skill.install(self.base/'lock-test', 'codex')
+        self.assertEqual(len(calls), 3)
+        self.assertTrue((Path(result[0]['path'])/'scripts/norteia.py').is_file())
+
     def test_installed_package_can_create_client_without_source_repo(self):
         install_skill.install(self.base/'destino', 'codex')
         package = self.base/'destino/.agents/skills/femo-ai-studio'
-        for rel in ('scripts/clientes.py', 'templates/cliente/campos.json', 'docs/CATALOGO.md',
+        for rel in ('scripts/clientes.py', 'scripts/norteia.py', 'scripts/qualidade.py', 'docs/NORTEIA.md', 'examples/norteia-minimo.json', 'templates/cliente/campos.json', 'docs/CATALOGO.md',
                     'third_party/instagram-agent/skills/ig-viral/swipe.py',
                     'third_party/instagram-skills/lib/apify_client.py',
                     'skills/femo-direcao-carrosseis/SKILL.md'):

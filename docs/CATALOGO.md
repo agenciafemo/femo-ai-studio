@@ -4,6 +4,8 @@ Comece por [SKILL.md](../SKILL.md). O agente consulta só o módulo necessário.
 
 | Necessidade | Entrada canônica |
 | --- | --- |
+| Preparar clientes a partir do Norteia | [Integração de leitura](NORTEIA.md), scripts/norteia.py |
+| Conferir contraste e diferenças de copy | scripts/qualidade.py e [critérios de revisão](../references/aprimoramentos-instagram.md) |
 | Pesquisa com equipe, evidências e dossiê | [Pesquisa FEMO](../references/pesquisa-e-dossie.md) e [base por cliente](CLIENTES.md) |
 | Copy, plano e direção ligados ao objetivo | [Criação com base](../references/criacao-com-base.md) |
 | Design/carrossel e revisão página a página | [Direção de carrosséis](../skills/femo-direcao-carrosseis/SKILL.md) |
@@ -64,3 +66,5 @@ Veja o formato e comando em [base do cliente](CLIENTES.md). Nenhum dos helpers c
 ## Ferramentas opcionais
 
 Video Use, HyperFrames, geração de imagem, ASR avançado e conectores continuam com instalação, licença, acesso e consumo próprios. O catálogo reúne suas rotas no Studio; não finge que todos os motores estão instalados. Use a ferramenta disponível e adequada à entrega. Não há serviço de coleta nem agentes persistentes em segundo plano neste pacote.
+
+Para melhorar o uso conjunto das skills, consultar [a revisão de pesquisa e criação](../references/aprimoramentos-instagram.md). Não executar humanização ou regras inglesas como reescrita automática de toda marca.

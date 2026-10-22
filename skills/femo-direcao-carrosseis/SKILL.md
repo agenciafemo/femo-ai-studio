@@ -67,3 +67,5 @@ Salve fontes, versões e decisões para retomada. Mostre prévias de todas as p�
 ## Aprendizados de produção
 
 Para corrigir composição, recortes e acabamento, consultar [aprendizados de produção](references/aprendizados-de-producao.md), consolidados em 22/10/2026. Para retomar ou salvar no Canva, consultar [observações operacionais](references/canva-retomada.md). São decisões verificadas em trabalhos reais; preservar as preferências próprias de cada cliente em vez de universalizá-las.
+
+Para verificar um par de cores e preservar a copy durante ajustes visuais, consultar [os critérios complementares](../../references/aprimoramentos-instagram.md) e o helper ../../scripts/qualidade.py. O resultado não substitui a inspeção de foto, textura, corpo de letra, palavras quebradas e sequência.

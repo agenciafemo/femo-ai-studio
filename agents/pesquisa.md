@@ -4,6 +4,8 @@ Estes são cartões de tarefa para o coordenador usar com a delegação disponí
 
 ## Pacote comum a cada agente
 
+Se houver Norteia, o coordenador prepara a leitura necessária e delimita o cliente/organização. Não delegar acesso geral à carteira para investigar uma só marca. Briefing ativo, exemplo aprovado, exemplo recusado e afirmação em revisão são fontes com funções diferentes.
+
 Fornecer: pasta privada do cliente, missão atual, objetivo conhecido, perguntas prioritárias, período, acessos disponíveis, fontes já lidas e prefixo de evidência. Pedir que leia references/pesquisa-e-dossie.md e só os campos/decisões pertinentes. Não mandar todo o histórico a todos os agentes.
 
 Cada agente grava apenas seu relatório e candidatos de evidência na subpasta pesquisa/[rodada]/[papel]/. Entregar:

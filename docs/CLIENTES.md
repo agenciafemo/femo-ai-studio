@@ -70,3 +70,16 @@ python scripts/benchmark.py projetos/clientes/clinica-exemplo/pesquisa/amostra.j
 ~~~
 
 A saída é criada sem sobrescrever um arquivo existente. Defina --minimo se a missão justificar outra convenção de tamanho; explique o limite da amostra. O script não compara curtidas a plays, não substitui mediana por seguidores e mantém fontes e exclusões. A mediana inclui os posts válidos fornecidos no grupo, não uma população presumida. A coleta e a seleção precisam estar documentadas na rodada de pesquisa. Não interprete um multiplicador descritivo como comprovação de viralização.
+
+## Base já existente no Norteia
+
+Consultar docs/NORTEIA.md antes de recadastrar manualmente. O preparador cria fontes e hipóteses em pastas privadas, sem pesquisar todos os perfis nem aprovar identidade. Ler também as bases privadas anteriores da cliente antes de usar o conteúdo importado.
+
+## Conferência antes de entregar
+
+~~~bash
+python scripts/qualidade.py contraste --frente "#40352E" --fundo "#F5F1EA"
+python scripts/qualidade.py copy projetos/clientes/cliente/producao/comparacao-copy.json
+~~~
+
+O JSON de comparação contém reference e output como textos. Use a copy de conteúdo, separada de cabeçalhos/assinaturas adicionais. O resultado 2 indica diferença a revisar ou contraste abaixo da meta; não faz correção automática. Os limites e fontes estão em references/aprimoramentos-instagram.md. Ver a arte no tamanho final continua necessário.

@@ -29,6 +29,14 @@ A coleta depende do navegador/conector e do acesso real ao conteúdo; login, API
 
 O PDF já disponível abaixo é a introdução original de vídeo e design. A nova camada de pesquisa está no guia de clientes acima.
 
+## Clientes no Norteia
+
+Se a agência já mantém clientes no Norteia, a IA pode consultar o cadastro autorizado e preparar as bases privadas a partir de uma exportação mínima. O helper preserva o vínculo por cliente, registra fontes, mantém hipóteses e abre conflitos quando uma atualização diverge de uma decisão local. Não altera o Norteia nem transforma cadastro em pesquisa concluída.
+
+[Preparar a carteira](docs/NORTEIA.md) · [Melhorias de pesquisa, voz e revisão](references/aprimoramentos-instagram.md)
+
+Há verificações locais de contraste e diferenças de copy, além de um modelo para registrar hipóteses e resultados de conteúdo. Os dados reais continuam em projetos/, fora do pacote público.
+
 ## Vídeo: comece em três passos
 
 1. **Baixe e extraia o repositório.** Abra a pasta extraída no Claude Code ou no Codex com acesso local. No primeiro uso, peça à IA para verificar as dependências.
